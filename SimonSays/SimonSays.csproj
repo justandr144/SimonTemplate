@@ -37,7 +37,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -125,6 +127,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SimonSaysImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linkresize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenRupeeResize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldRupeeResize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redRupeeResize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueRupeeResize.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

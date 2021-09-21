@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuScreen));
             this.exitButton = new System.Windows.Forms.Button();
             this.newButton = new System.Windows.Forms.Button();
+            this.linkLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // exitButton
@@ -69,17 +70,27 @@
             this.newButton.UseVisualStyleBackColor = false;
             this.newButton.Click += new System.EventHandler(this.newButton_Click);
             // 
-            // MainScreen
+            // linkLabel
+            // 
+            this.linkLabel.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel.Image = global::SimonSays.Properties.Resources.linkresize;
+            this.linkLabel.Location = new System.Drawing.Point(94, 110);
+            this.linkLabel.Name = "linkLabel";
+            this.linkLabel.Size = new System.Drawing.Size(100, 100);
+            this.linkLabel.TabIndex = 20;
+            // 
+            // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Controls.Add(this.linkLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.newButton);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "MainScreen";
+            this.Name = "MenuScreen";
             this.Size = new System.Drawing.Size(301, 300);
             this.ResumeLayout(false);
 
@@ -89,5 +100,6 @@
 
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Button newButton;
+        private System.Windows.Forms.Label linkLabel;
     }
 }

@@ -70,11 +70,61 @@ namespace SimonSays.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blueRupeeResize {
+            get {
+                object obj = ResourceManager.GetObject("blueRupeeResize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gameOver {
+            get {
+                object obj = ResourceManager.GetObject("gameOver", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goldRupeeResize {
+            get {
+                object obj = ResourceManager.GetObject("goldRupeeResize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream green {
             get {
                 return ResourceManager.GetStream("green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greenRupeeResize {
+            get {
+                object obj = ResourceManager.GetObject("greenRupeeResize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap linkresize {
+            get {
+                object obj = ResourceManager.GetObject("linkresize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -93,6 +143,16 @@ namespace SimonSays.Properties {
         internal static System.IO.UnmanagedMemoryStream red {
             get {
                 return ResourceManager.GetStream("red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap redRupeeResize {
+            get {
+                object obj = ResourceManager.GetObject("redRupeeResize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
